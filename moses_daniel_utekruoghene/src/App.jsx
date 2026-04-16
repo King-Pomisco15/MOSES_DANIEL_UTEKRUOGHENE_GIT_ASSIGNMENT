@@ -1,12 +1,14 @@
-import Header from "./components/header/header";
-import About from "./components/about/about";
-import Services from "./components/services/services";
-import Footer from "./components/footer/footer";
+import Header from "./components/header/Header";
+import Hero from "./components/hero/Hero";
+import About from "./components/about/About";
+import Services from "./components/services/Services";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
-    <div>
+    <div style={{ background: "#0a0a14", minHeight: "100vh" }}>
       <Header />
+      <Hero />
       <About />
       <Services />
       <Footer />
